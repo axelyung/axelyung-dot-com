@@ -19,7 +19,7 @@
   "homepage": "https://github.com/axelyung/axelyung-dot-com#readme",
   "scripts": {
     "develop": "gatsby develop",
-    "lint": "eslint --fix .",
+    "lint": "eslint .",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",

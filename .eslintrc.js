@@ -1,3 +1,12 @@
 module.exports = {
-  extends: ['airbnb', 'airbnb/hooks'],
+  extends: [
+    "eslint:recommended",
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:prettier/recommended",
+  ],
+  plugins: ["prettier"],
+  rules: {
+    indent: [2, 2],
+  },
 };
