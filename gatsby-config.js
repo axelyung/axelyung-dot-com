@@ -29,7 +29,7 @@ if (GANALYTICS_TRACKING_ID) {
 	options: {
 	    trackingId: GANALYTICS_TRACKING_ID,
 	},
-    })
+    });
 }
 
 module.exports = {
